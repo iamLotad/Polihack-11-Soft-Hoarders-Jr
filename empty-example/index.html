@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pandemic Mate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="header">
+  <img src="virusu.png" alt="virus_logo" id="virus">
+  <span style="float:left"> <img id="logo" src="LogoEchipa_.png" alt="Logo echipa" class="rotate"> </span>
+</div>
+
+<div id="navbar">
+  <a href="#categorie1">Obiectivul Nostru</a>
+  <a href="#categorie2">Hobby-uri si activitati</a>
+  <a href="joc.html">Joc Interactiv</a>
+  <span style="float:right">
+  <div class="special-links">
+       <a href="https://www.instagram.com/soft.hoarders/ ">
+        <img src="ig.png" id="igfb">
+      </a>
+      <a href="https://www.facebook.com/SoftHoarders ">
+        <img src="fb.png" id="igfb">
+      </a>
+  </div>
+  </span>
+
+</div>
+<div id="continut">
+<br>
+<div id="categorie1">
+  <br><br>
+    <img src="OBIECTIV.png" alt="obiectiv" class="center" id="titlu2">
+  <p id="textinmijloc">Obiectivul nostru este strângerea de fonduri pentru achiziționarea de tablete și laptopuri elevilor din zonele mai sărace ale țării. Haideți sa fim alături de toți copiii care se află în această situație de-a dreptul neplăcută și să îi ajutăm pe toți să poată participa la cursurile online, pentru a avea parte de educația necesară chiar și in situația de față. Împreună putem să facem lumea un loc mai bun! Fiecare dintre noi poate face o faptă bună, cât de mica, deoarece pentru unii poate însemna foarte mult, mai ales in acest moment în care se apropie sărbătorile de iarnă. Haideți să fim noi cei care vom face acești copii fericiți și să le dăm o șansă să își poată contura un viitor strălucit. Sperăm ca mesejul nostru să ajungă la cât mai multă lume, deoarece doar cu mult ajutor putem face lucruri minunate pentru copiii fără posibilități. Haideți să dăm acces la educație!</p>
+  <a href="doneaza.html">
+    <img src="doneaza.png" id="doneaza" class="center">
+  </a>
+</div>
+<div id="categorie2">
+  <br>
+  <hr>
+  <br>
+  <img src="HOBBY.png" alt="hobby" class="center" id="titlu">
+  <p id="textinmijloc"><br>În această perioadă, în care viața noastră s-a schimbat radical, plictiseala a devenit o senzație care este simțită în fiecare zi. Dupa atâta timp de pandemie, cu toții am ajuns la concluzia că există o serie de activități care nu trebuie neglijate și care pot face din statul acasă o plăcere:</p>
+  <br>
+  <img src="sportul.png" alt="sportul" id="titlumic" class="center">
+  <br>
+  <img src="test.gif" alt="workoutgif" class="center" id="giff">
+  <br>
+  <p id="textinmijloc">Sportul este una dintre cele mai importante activități în condiții normale, fiind cu atât mai important având în vedere izolarea si statul în casă, care ne privează de posibilitatea de a face sport în aer liber, astfel devenind probabil cea mai importantă activitate, care nu doar că face plictiseala să dispară, ci aduce și beneficii, atât pe plan fizic, cât și intelectual.
+  </p>
+  <br>
+  <img src="invatatul.png" alt="sportul" id="titlumic" class="center">
+  <br>
+  <img src="learning.gif" alt="learninggif" class="center" id="giff">
+  <br>
+  <p id="textinmijloc">Deși mulți dintre noi considerăm învățatul o obligație, nicidecum un hobby, în această situație de pandemie, învățatul este o ativitate care nu doar că aduce satisfacție,dar este și ceva care te ajută în viață.
+  </p>
+  <br>
+  <img src="gatitul.png" alt="sportul" id="titlumic" class="center">
+  <br>
+  <img src="cooking.gif" alt="cookinggif" class="center" id="giff">
+  <br>
+  <p id="textinmijloc">Gătitul este unul dintre cele mai interesante și folositoare hobby-uri care pot apăra pe oricine de plictiseală. În afară de faptul că este o activitate foarte distractivă, acest hobby poate elimina din rutină mersul la restaurant si terase, locurile în care virusul se răspândește cel mai ușor.
+  </p>
+  <br>
+  <img src="cititul.png" alt="sportul" id="titlumic" class="center">
+  <br>
+  <img src="invata.gif" alt="readinggif" class="center" id="giff">
+  <br>
+  <p id="textinmijloc">Având în vedere timpul petrecut în casă, foarte mulți oameni în special copii, își găsesc relaxarea jucând jocuri pe calculator, fapt ce poate avea consecințe negative pe termen lung. Cititul în schimb dezvoltă atât inteligența și creativitatea cât și vocabularul.
+  </p>
+
+</div>
+<div class ="viruses">
+  <img src="virusfundal.png">
+  <img src="virusfundal.png">
+  <img src="virusfundal.png">
+  <img src="virusfundal.png">
+</div>
+
+</div>
+</body>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</html>
